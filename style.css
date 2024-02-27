@@ -108,7 +108,7 @@
     padding: 48px 96px;
   }
 
-article p:first-child::first-letter {
+article p:first-letter {
     font-size: xx-large;
   }
 
@@ -117,7 +117,7 @@ article p:first-child::first-letter {
     display: inline-block;
 }
 
-.tooltip .tooltiptext {
+.tooltip:hover  {
     visibility: hidden;
     width: 120px;
     background-color: black;
