@@ -108,8 +108,12 @@
     padding: 48px 96px;
   }
 
-article p:first-letter {
-    font-size: xx-large;
+p::first-child::first-letter {
+    float: left;
+    line-height: 35px;
+    font-size: 55px;
+    padding: 5px;
+    margin: 5px -5px;
   }
 
 .tooltip {
