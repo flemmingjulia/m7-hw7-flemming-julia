@@ -115,7 +115,6 @@ article p:first-child::first-letter {
 .tooltip {
     position:relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
@@ -128,6 +127,6 @@ article p:first-child::first-letter {
     padding: 5px 0;
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+.tooltip {
+    color: red;
 }
