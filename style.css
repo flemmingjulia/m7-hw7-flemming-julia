@@ -108,7 +108,7 @@
     padding: 48px 96px;
   }
 
-  p:first-child::first-letter {
+  p:first-child :first-letter {
     font-size: xx-large;
   }
 
