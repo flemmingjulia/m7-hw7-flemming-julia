@@ -108,7 +108,7 @@
     padding: 48px 96px;
   }
 
-p:first-of-type::first-letter {
+p. dropcap::first-letter {
     float: left;
     line-height: 35px;
     font-size: 55px;
@@ -125,9 +125,12 @@ p:first-of-type::first-letter {
     border-radius: 6px;
     padding: 5px 0;
 }
-
 .tooltip {
-    color: red;
+    position: relative;
+    display: inline-block;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 .tooltip .tooltiptext {
