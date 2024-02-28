@@ -108,7 +108,7 @@
     padding: 48px 96px;
   }
 
-p::first-child::first-letter {
+p::first-of-type::first-letter {
     float: left;
     line-height: 35px;
     font-size: 55px;
@@ -116,8 +116,8 @@ p::first-child::first-letter {
     margin: 5px -5px;
   }
 
-.tooltip:hover  {
-    visibility: visible;
+.tooltip .tooltiptext {
+    visibility: hidden;
     width: 120px;
     background-color: black;
     color: #fff;
@@ -128,4 +128,11 @@ p::first-child::first-letter {
 
 .tooltip {
     color: red;
+}
+
+.tooltip .tooltiptext {
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
 }
