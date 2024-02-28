@@ -108,7 +108,7 @@
     padding: 48px 96px;
   }
 
-p::first-of-type::first-letter {
+p:first-of-type::first-letter {
     float: left;
     line-height: 35px;
     font-size: 55px;
