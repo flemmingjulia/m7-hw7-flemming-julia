@@ -122,8 +122,7 @@ p .dropcap::first-letter {
     background-color: black;
     color: #fff;
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+  
 }
  .tooltip {
     position: relative;
