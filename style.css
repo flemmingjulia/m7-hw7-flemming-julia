@@ -108,7 +108,7 @@
     padding: 48px 96px;
   }
 
-p. dropcap::first-letter {
+p .dropcap::first-letter {
     float: left;
     line-height: 35px;
     font-size: 55px;
@@ -116,7 +116,7 @@ p. dropcap::first-letter {
     margin: 5px -5px;
   }
 
-.tooltip .tooltiptext {
+ .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -125,17 +125,17 @@ p. dropcap::first-letter {
     border-radius: 6px;
     padding: 5px 0;
 }
-.tooltip {
+ .tooltip {
     position: relative;
     display: inline-block;
-}
-.tooltip:hover .tooltiptext {
+ }
+ .tooltip:hover .tooltiptext {
     visibility: visible;
-}
+ }
 
-.tooltip .tooltiptext {
+ .tooltip .tooltiptext {
     width: 120px;
     bottom: 100%;
     left: 50%;
     margin-left: -60px;
-}
+ }
