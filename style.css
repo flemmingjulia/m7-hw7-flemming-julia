@@ -108,7 +108,29 @@
     padding: 48px 96px;
   }
 
-p .dropcap::first-letter {
+  main p {
+    line-height: 1.75;
+    margin-bottom: 48px;;
+  }
+  
+  main > article img {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 24px;
+    margin-bottom: 6px;
+  }
+  
+  footer {
+    margin-top: auto;
+    background-color: var(--gray);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 24px 0;
+    color: var(--off-white);
+  }
+
+ p.dropcap::first-letter {
     float: left;
     line-height: 35px;
     font-size: 55px;
@@ -116,25 +138,25 @@ p .dropcap::first-letter {
     margin: 5px -5px;
   }
 
- .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-  
-}
- .tooltip {
+  span.tooltip {
+    color: var(--danger-color);
     position: relative;
-    display: inline-block;
- }
- .tooltip:hover .tooltiptext {
-    visibility: visible;
- }
+    cursor: pointer;
+  }
 
- .tooltip .tooltiptext {
-    width: 120px;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
- }
+ span.tooltip:hover,
+ span.tooltip:focus {
+  text-decoration: underline;
+}
+ 
+ span.tooltip:hover > span,
+ span.tooltip:focus > span {
+  display: inline;
+}
+
+ span.tooltip span {
+  display: none;
+
+  span.tooltip span::after {
+    content: "";
+  }
