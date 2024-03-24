@@ -156,7 +156,8 @@
 
  span.tooltip span {
   display: none;
-
-  span.tooltip span::after {
+ }
+ 
+span.tooltip span::after {
     content: "";
-  }
+}
